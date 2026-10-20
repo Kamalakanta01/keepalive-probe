@@ -1,5 +1,7 @@
 name: probe
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: "* * * * *"
   workflow_dispatch:
